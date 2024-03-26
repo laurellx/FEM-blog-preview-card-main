@@ -24,6 +24,7 @@ body .wrapper {
   width: min-content;
   height: auto;
   padding: 24px;
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
 }
 body .wrapper header .header-img {
   margin-bottom: 24px;
@@ -48,6 +49,10 @@ body .wrapper main .main-title {
   font-weight: 800;
   font-size: 20px;
   color: hsl(0, 0%, 7%);
+}
+body .wrapper main .main-title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
 }
 body .wrapper main .main-subtitle {
   margin-top: 15px;
