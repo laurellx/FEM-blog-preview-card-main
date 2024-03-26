@@ -1,0 +1,80 @@
+* {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  width: -moz-min-content;
+  width: min-content;
+  height: auto;
+  padding: 24px;
+}
+body .wrapper header .header-img {
+  margin-bottom: 24px;
+  height: auto;
+  width: 279px;
+  border-radius: 10px;
+}
+body .wrapper main .main-buttonlike {
+  font-size: 12px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  padding: 5px 13px;
+  width: -moz-min-content;
+  width: min-content;
+}
+body .wrapper main .main-date {
+  margin-top: 15px;
+  font-size: 12px;
+}
+body .wrapper main .main-title {
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 20px;
+  color: hsl(0, 0%, 7%);
+}
+body .wrapper main .main-subtitle {
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+  line-height: 20px;
+}
+body .wrapper main .author {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 24px;
+}
+body .wrapper main .author img {
+  width: 32px;
+  height: 32px;
+}
+body .wrapper main .author p {
+  margin-left: 12px;
+  font-weight: 500;
+}
+body .attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
